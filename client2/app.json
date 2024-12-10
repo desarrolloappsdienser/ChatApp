@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "client2",
+    "slug": "client2",
+    "version": "1.0.0",
+    "newArchEnabled": true,
+    "android": {
+      "permissions": ["CAMERA"]
+    }
+  }
+}

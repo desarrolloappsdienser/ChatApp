@@ -99,6 +99,7 @@ export function Item(props) {
         if(newMessage.chat === chat._id){
             if(newMessage.user._id !== user._id){
                 upTopChat(newMessage.chat);
+                console.log("SMS",newMessage);
                 setLastMessage(newMessage);
 
                 const activeChatId = await AsyncStorage.getItem(ENV.ACTIVE_CHAT_ID);

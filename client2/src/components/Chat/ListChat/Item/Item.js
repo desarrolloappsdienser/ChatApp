@@ -96,6 +96,7 @@ export function Item(props) {
     },[]);
 
     const newMessage = async (newMessage) =>{
+        
         if(newMessage.chat === chat._id){
             if(newMessage.user._id !== user._id){
                 upTopChat(newMessage.chat);

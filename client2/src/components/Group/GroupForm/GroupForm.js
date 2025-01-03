@@ -12,7 +12,7 @@ import {styles} from "./GroupForm.styles";
 const groupMessageController = new GroupMessage();
 
 export function GroupForm(props) {
-
+console.log("DIEGO",props);
     const [keyboardHeight,setKeyboardHeight] = useState(0);
     const {groupid} = props;
     const {accessToken} =useAuth();

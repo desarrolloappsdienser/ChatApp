@@ -22,7 +22,7 @@ export function ChangeNameGroupscreen() {
     onSubmit: async(formValue)=>{
       try {
         
-        await groupController.update(accessToken, params.groupid,{
+        await groupController.update(accessToken, params.groupId,{
           name:formValue.name,
         });
         navigation.goBack();

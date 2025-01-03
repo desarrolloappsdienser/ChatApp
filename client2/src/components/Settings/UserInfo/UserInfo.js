@@ -7,7 +7,7 @@ import { styles } from './UserInfo.styles';
 export function UserInfo(props) {
 
     const {user} = props;
-
+console.log("XXXperfil",{uri:user.avatar && `${ENV.BASE_PATH}/${user.avatar}`});
   return (
     <View style = {styles.content}>
       <Avatar
